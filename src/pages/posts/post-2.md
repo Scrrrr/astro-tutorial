@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: '今日の私のブログ..'
+title: '今日の私のブログ..原曲しらない'
 date: 2024/10/22
 author: 'Astro Learner'
 image:
