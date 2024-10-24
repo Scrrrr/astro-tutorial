@@ -1,5 +1,5 @@
 ---
-import Layout from '../layouts/MinimamLayout.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
 import Navigation from '../components/Navigation.astro';
 import '../styles/global.css';
 const string = "私";
@@ -21,8 +21,7 @@ const finished = false;
 const goal = 3;
 
 ---
-<Navigation />
-<Layout title="About Me.">
+<BaseLayout pageTitle="About Me.">
 <body>
 	<main>
 		<h1>ようこそ {string}の世界へ！</h1>
@@ -63,4 +62,4 @@ const goal = 3;
       text-transform: var(--textCase)
   }
 </style>
-</Layout>
+</BaseLayout>

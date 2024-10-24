@@ -4,7 +4,7 @@ const {frontmatter} = Astro.props;
 ---
 
 <BaseLayout pageTitle={frontmatter.title}>
-<p>投稿日: {frontmatter.date.toString().slice(0.10)}</p>
+<p>投稿日: {frontmatter.PubDate.toString().slice(0.10)}</p>
 <slot />
 <p>著者: {frontmatter.author}</p>
 
