@@ -1,12 +1,10 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Greeting from '../components/Greeting';
 const pageTitle = 'ホームページです！';
 ---
 
 <BaseLayout pageTitle="ここはホームページ">
   <p>ここにかいていくよ～～！</p>
   <h2>私の素晴らしいブログサイトです！</h2>
-  <Greeting client:load messages={["He", "Hallo", "Hola", "Habari"]} />
   <p>ここにまでしか書けないよ～～！</p>
 </BaseLayout>
